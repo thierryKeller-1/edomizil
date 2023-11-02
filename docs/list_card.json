@@ -1,0 +1,525 @@
+"https://www.e-domizil.ch/deeplink/?params=eJxNjzsOwjAMQO-SFSo5P6ftDdgYuICTGBGppVUakBDi7iTAwGa_9zz4KeItU0nLVYxuL6Yl_BZhDQIxea-9BrEXlHO601SNAqU7CZ2SFa85BS6PlasoS6Hp2EAVJc28FZrX_ws4STcCjGB2oOpQuxRbYAfoDQ7cezw723hMmUM5NItNo5Ok0Q0OehVjIKDBcfRBS6z1xpTD5VMzBskkbXTKopam2ZCZ21PfTLzeWEdFow&clo=1"
+"https://www.e-domizil.ch/deeplink/?params=eJxNj00KwjAQRu-SrRUmSZuf3sCdCy8wmUwx0NoSoyDi3U3UhZuB-d6bge8p4i1jSetFjLYT80q_RQy9AWQMQQcNohOYc7rjXIkCpfcS9krWeMuJuDw2rqCsBedjCyooaeFrwWX7v4CTtCOoUftdndD-ptiEwYPrjWcXzGSHlseUmcqhUdOwsRK1sd6CUzESAnrLMZCWptpXxkznjz1JS8w9aecndBIbpczcSn018XoDa8tGSQ\u0026clo=1"
+
+{
+    "SavePercentPrice": null,
+    "analytics": {
+        "objectId": "fe11afa4950ded61",
+        "providerId": "synthetic",
+        "location": "Suisse\/Berne\/District d\u0027Obersimmental\/Zweisimmen",
+        "locationId": "5460aeb2c2ce2",
+        "locationsIds": "5460aea910151\/5527bb6338179\/565c3533590fb\/5460aeb2c2ce2",
+        "type": "farm",
+        "persons": 6,
+        "bedrooms": 3,
+        "amenities": "barbecue,bicycle_rental,children_friendly,coffee_machine,dishwasher,fireplace,freezer,fridge,garden,golf,hairdryer,heating,internet,kettle,kitchen,microwave,no_dogs,oven,parking,radio,smoking_not_allowed,tennis,terrace,toaster,tv,view_garden,view_mountain,view_nature,washing_machine_available",
+        "toWater": 0,
+        "toSki": 1500,
+        "price": 117,
+        "availability": "direct",
+        "personsDiff": 4,
+        "multiObjectId": "fe11afa4950ded61",
+        "multiDefProviderId": "eDomizil",
+        "multiDefObjectId": "6e3588388e517e1761a4f96eeb690bda",
+        "multiProviderIds": "eDomizil",
+        "multiPrices": "117",
+        "pcCampaigns": null,
+        "isFlexible": false,
+        "rating": 9.7,
+        "isNearby": false,
+        "tags": "1$$f\/x+0nUZtt9xKi7Tnfu2b3jPAw4DitGMeAHNVYkgwROx2uiYlAjO1RPS1JYq7Q078CgrOW4oKG\/uECj9kvLAKjxsKjczauEqFWW1ZlwRgaJtpGUaryllwkQnKW3LDSlX9kHyaoJ6mLtFqf08NwhOp3QCU1zvcPbTx7iv1uDesEE=",
+        "visibleProviderName": "e-domizil",
+        "tagsLive": "|pa_done|completed|jagermeister|price_adj_1x|price_orig|price_unexpired|pc_pc_full|"
+    },
+    "analyticsPixel": {
+        "content_ids": [
+            "5460aea910151",
+            "5527bb6338179",
+            "565c3533590fb",
+            "5460aeb2c2ce2",
+            "1624918e8a5927b6"
+        ],
+        "content_type": [
+            "destination",
+            "hotel"
+        ],
+        "checkin_date": "2023-10-21",
+        "travel_start": "2023-10-21",
+        "checkout_date": "2023-10-28",
+        "travel_end": "2023-10-28",
+        "num_adults": 6,
+        "value": 116.36,
+        "currency": "EUR",
+        "city": "Zweisimmen",
+        "region": "Berne",
+        "country": "Suisse"
+    },
+    "analyticsSnowPlow": {
+        "offer": {
+            "unitId": "6e3588388e517e1761a4f96eeb690bda",
+            "providerId": "eDomizil",
+            "providerName": "e-domizil",
+            "pricePerNight": 117,
+            "availability": "direct",
+            "category": "multi_offer",
+            "multiId": "fe11afa4950ded61",
+            "multiOptions": null,
+            "pcCampaigns": null,
+            "title": "Ferienhaus Sch\u00f6nenmatte",
+            "tags": "1$$f\/x+0nUZtt9xKi7Tnfu2b3jPAw4DitGMeAHNVYkgwROx2uiYlAjO1RPS1JYq7Q078CgrOW4oKG\/uECj9kvLAKjxsKjczauEqFWW1ZlwRgaJtpGUaryllwkQnKW3LDSlX9kHyaoJ6mLtFqf08NwhOp3QCU1zvcPbTx7iv1uDesEE=",
+            "biddingTags": "1$$3RBJzY+FQ7Ujc24+QKaODw==",
+            "tagsLive": [
+                "pa_done",
+                "completed",
+                "jagermeister",
+                "price_adj_1x",
+                "price_orig",
+                "price_unexpired",
+                "single_option",
+                "topRated_avail",
+                "rating_avail",
+                "bookedOut_avail",
+                "instantConfirmation_avail",
+                "distanceToSkiLift_avail",
+                "popularAmenities_avail",
+                "highRating_avail",
+                "safeBooking_avail",
+                "customerService_avail",
+                "fallback_avail",
+                "hour_9",
+                "had_jm",
+                "pc_pc_full",
+                "rdate_20231020",
+                "title_original"
+            ],
+            "ssa": "1$$CBbjPEqB\/cFfIghSLrAI\/g==",
+            "ssb": "1$$t9QaOf2FVEwjsL9m3PggHQ==",
+            "ssc": "1$$+PHnpm7S52GcsYsXRhUu9A==",
+            "rsd": null,
+            "tsd": "1$$Nn3pZ3gctLU5GDw++3PzuGqip2cMOJRR5Oz0MVQdB3qq\/dU4o4b2xIqSwp6cskfu5B6WyTHZpYt2Ra6EAycrQLYEKWKG+ahAxSJLcsgT+r9Yh7HFkRLrCCU6CNd3YaOeTAOnMLVxyzNdydd9ySTJhOpHQ2LDlTqEm2Twik5fCqWb8E6+tQCvmdh\/4r99L+F34YdHKwLivRlRibwJBVZPinroFJrPG2KwCjxE28xO4o8=",
+            "discounts": "[{\u0022type\u0022:\u0022highest_range_discount\u0022,\u0022static_value\u0022:null,\u0022calc_value\u0022:null}]",
+            "imageCount": 19,
+            "videoCount": 0,
+            "firstImageId": "4e79ad7c63205949c1f4a8c385c0a09c",
+            "mbpi": null,
+            "mbpu": null,
+            "country": "CH"
+        }
+    },
+    "actions": {
+        "conversion": {
+            "first": {
+                "link": "\/rental\/6e3588388e517e1761a4f96eeb690bda?location=5460aea910151\u0026arrival=2023-10-21\u0026pricetype=totalPrice\u0026duration=7\u0026timestamp=2023-10-20T16%3A52%3A24%2B02%3A00\u0026id=fe11afa4950ded61\u0026directId=6e3588388e517e1761a4f96eeb690bda\u0026searchId=278ceec2bb1ba9ca\u0026screen=search\u0026isHotel=0\u0026clickId=3FW8DW2PV577RHP6\u0026sT=withDates\u0026pCon=814.54125103371%7CEUR%7C2023-10-21%7C7%7C2%7C1697813544%7C1%7C1%7C1697812578%7C2%7C0%7C0%7C91%7C667.30947743984%7C0\u0026prodName=JM\u0026prodSource=Search",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            },
+            "second": {
+                "link": "\/deeplink\/?params=eJxNj0FuwyAQRe_CNok0gw0G3yC7LnqBAb5VJKe2CI0UVbl7IO0i2__e_6P5VesWpebtW83KjJYE4pnYsDoqKSXfZG1Ekx5OTCfd473kiHrf0UDdqqwfPWgg_ZT_qemoar7gWuWyv9fpk-1s9KzHA-mZqJVyasICZllk9IYSku1XUi6I9dypxWCcG5yD4Qk8WZZx8RYI1lNI0uwrpMSvl60nF4GoQ-AgPr5oLED_8E9TjydJb0cq\u0026clo=1",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            },
+            "third": {
+                "link": "\/deeplink\/?params=eJxNj0FuwyAQRe_CNok0gw0G3yC7LnqBAb5VJKe2CI0UVbl7IO0i2__e_6P5VesWpebtW83KjJYE4pnYsDoqKSXfZG1Ekx5OTCfd473kiHrf0UDdqqwfPWgg_ZT_qemoar7gWuWyv9fpk-1s9KzHA-mZqJVyasICZllk9IYSku1XUi6I9dypxWCcG5yD4Qk8WZZx8RYI1lNI0uwrpMSvl60nF4GoQ-AgPr5oLED_8E9TjydJb0cq\u0026clo=1",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            },
+            "fourth": {
+                "link": "\/deeplink\/?params=eJxNj0FuwyAQRe_CNok0gw0G3yC7LnqBAb5VJKe2CI0UVbl7IO0i2__e_6P5VesWpebtW83KjJYE4pnYsDoqKSXfZG1Ekx5OTCfd473kiHrf0UDdqqwfPWgg_ZT_qemoar7gWuWyv9fpk-1s9KzHA-mZqJVyasICZllk9IYSku1XUi6I9dypxWCcG5yD4Qk8WZZx8RYI1lNI0uwrpMSvl60nF4GoQ-AgPr5oLED_8E9TjydJb0cq\u0026clo=2",
+                "conversionCategory": "clickout",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            },
+            "fifth": {
+                "link": "\/rental\/6e3588388e517e1761a4f96eeb690bda?location=5460aea910151\u0026arrival=2023-10-21\u0026pricetype=totalPrice\u0026duration=7\u0026timestamp=2023-10-20T16%3A52%3A24%2B02%3A00\u0026id=fe11afa4950ded61\u0026directId=6e3588388e517e1761a4f96eeb690bda\u0026searchId=278ceec2bb1ba9ca\u0026screen=search\u0026isHotel=0\u0026clickId=F3VPVRQ0WXL02FK0\u0026sT=withDates\u0026pCon=814.54125103371%7CEUR%7C2023-10-21%7C7%7C2%7C1697813544%7C1%7C1%7C1697812578%7C2%7C0%7C0%7C91%7C667.30947743984%7C0\u0026prodName=JM\u0026prodSource=Search",
+                "conversionCategory": "rental_open",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            },
+            "sixth": {
+                "link": "\/deeplink\/?params=eJxNj0FuwyAQRe_CNok0gw0G3yC7LnqBAb5VJKe2CI0UVbl7IO0i2__e_6P5VesWpebtW83KjJYE4pnYsDoqKSXfZG1Ekx5OTCfd473kiHrf0UDdqqwfPWgg_ZT_qemoar7gWuWyv9fpk-1s9KzHA-mZqJVyasICZllk9IYSku1XUi6I9dypxWCcG5yD4Qk8WZZx8RYI1lNI0uwrpMSvl60nF4GoQ-AgPr5oLED_8E9TjydJb0cq\u0026clo=1",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            },
+            "seventh": {
+                "link": "\/rental\/6e3588388e517e1761a4f96eeb690bda?location=5460aea910151\u0026arrival=2023-10-21\u0026pricetype=totalPrice\u0026duration=7\u0026timestamp=2023-10-20T16%3A52%3A24%2B02%3A00\u0026id=fe11afa4950ded61\u0026directId=6e3588388e517e1761a4f96eeb690bda\u0026searchId=278ceec2bb1ba9ca\u0026screen=search\u0026isHotel=0\u0026refEl=video\u0026clickId=R54DKGYVHHMSQYK2\u0026sT=withDates\u0026pCon=814.54125103371%7CEUR%7C2023-10-21%7C7%7C2%7C1697813544%7C1%7C1%7C1697812578%7C2%7C0%7C0%7C91%7C667.30947743984%7C0\u0026prodName=JM\u0026prodSource=Search",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            },
+            "eighth": {
+                "link": "\/checkout\/user\/6e3588388e517e1761a4f96eeb690bda?location=5460aea910151\u0026arrival=2023-10-21\u0026pricetype=totalPrice\u0026duration=7\u0026timestamp=2023-10-20T16:52:24%2B02:00\u0026id=fe11afa4950ded61\u0026directId=6e3588388e517e1761a4f96eeb690bda\u0026searchId=278ceec2bb1ba9ca\u0026screen=search\u0026isHotel=0",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "6e3588388e517e1761a4f96eeb690bda"
+            }
+        },
+        "wishList": {
+            "add": {
+                "link": "\/pinboard\/update\/6e3588388e517e1761a4f96eeb690bda",
+                "method": "POST",
+                "parameters": {
+                    "locationId": "5460aea910151"
+                }
+            },
+            "delete": {
+                "link": "\/pinboard\/all\/6e3588388e517e1761a4f96eeb690bda",
+                "method": "DELETE",
+                "parameters": {}
+            }
+        }
+    },
+    "amenities": {
+        "icons": [
+            {
+                "label": "Lave-vaisselle",
+                "icon": "dishwasher"
+            },
+            {
+                "label": "Terrasse \/ balcon",
+                "icon": "terrace"
+            },
+            {
+                "label": "Lave-linge",
+                "icon": "washing_machine_available"
+            },
+            {
+                "label": "TV",
+                "icon": "tv"
+            },
+            {
+                "label": "Acc\u00e8s internet",
+                "icon": "internet"
+            },
+            {
+                "label": "Chemin\u00e9e",
+                "icon": "fireplace"
+            },
+            {
+                "label": "Micro-ondes",
+                "icon": "microwave"
+            },
+            {
+                "label": "Animaux non autoris\u00e9s",
+                "icon": "no_dogs"
+            }
+        ]
+    },
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "bookedOut": false,
+    "boostedUrl": "",
+    "checkPrice": false,
+    "completed": true,
+    "constraintsBadge": null,
+    "dataCollectedTimestamp": "2023-10-20 04:24",
+    "debug": {},
+    "discountTooltip": null,
+    "fullGeoHash": "u0m0z9fv5",
+    "geoLocation": {
+        "lat": 46.5486,
+        "lon": 7.36476
+    },
+    "h1": "Long\u00e8re 115 m\u00b2",
+    "h2": {
+        "startTrail": "Zweisimmen",
+        "endTrail": ", District d\u0027Obersimmental, Suisse"
+    },
+    "hotelStars": null,
+    "hotelStarsString": null,
+    "htgRatings": null,
+    "id": "6e3588388e517e1761a4f96eeb690bda",
+    "images": [
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/4e7\/9ad\/7c63205949c1f4a8c385c0a09c.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/4e7\/9ad\/7c63205949c1f4a8c385c0a09c.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/4e7\/9ad\/7c63205949c1f4a8c385c0a09c.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/4e7\/9ad\/7c63205949c1f4a8c385c0a09c.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/2a2\/757\/1c17df2258e8f65dd645de0a46.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/2a2\/757\/1c17df2258e8f65dd645de0a46.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/2a2\/757\/1c17df2258e8f65dd645de0a46.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/2a2\/757\/1c17df2258e8f65dd645de0a46.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/834\/680\/de5b23d6af6ef1a4f8642a7076.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/834\/680\/de5b23d6af6ef1a4f8642a7076.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/834\/680\/de5b23d6af6ef1a4f8642a7076.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/834\/680\/de5b23d6af6ef1a4f8642a7076.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/165\/c05\/7ebc93d10c7c20aeb10375930e.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/165\/c05\/7ebc93d10c7c20aeb10375930e.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/165\/c05\/7ebc93d10c7c20aeb10375930e.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/165\/c05\/7ebc93d10c7c20aeb10375930e.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/e38\/5bc\/3a3ba6199acc2c5ce2157e2ddb.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/e38\/5bc\/3a3ba6199acc2c5ce2157e2ddb.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/e38\/5bc\/3a3ba6199acc2c5ce2157e2ddb.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/e38\/5bc\/3a3ba6199acc2c5ce2157e2ddb.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/bf4\/a60\/feb55d07e49bde0c150bbaa490.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/bf4\/a60\/feb55d07e49bde0c150bbaa490.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/bf4\/a60\/feb55d07e49bde0c150bbaa490.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/bf4\/a60\/feb55d07e49bde0c150bbaa490.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/ea6\/98e\/1377ba34c016c6b9edf91fe74b.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/ea6\/98e\/1377ba34c016c6b9edf91fe74b.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/ea6\/98e\/1377ba34c016c6b9edf91fe74b.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/ea6\/98e\/1377ba34c016c6b9edf91fe74b.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/02e\/1a8\/e42ff057879df05fbf4cd990e4.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/02e\/1a8\/e42ff057879df05fbf4cd990e4.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/02e\/1a8\/e42ff057879df05fbf4cd990e4.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/02e\/1a8\/e42ff057879df05fbf4cd990e4.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/08f\/294\/6190ad49f14696312f5f22252e.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/08f\/294\/6190ad49f14696312f5f22252e.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/08f\/294\/6190ad49f14696312f5f22252e.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/08f\/294\/6190ad49f14696312f5f22252e.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/f3a\/3be\/4fec2125a40e15b13d4fcda70c.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/f3a\/3be\/4fec2125a40e15b13d4fcda70c.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/f3a\/3be\/4fec2125a40e15b13d4fcda70c.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/f3a\/3be\/4fec2125a40e15b13d4fcda70c.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/983\/728\/ff2a239b43f3ccff7e23189830.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/983\/728\/ff2a239b43f3ccff7e23189830.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/983\/728\/ff2a239b43f3ccff7e23189830.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/983\/728\/ff2a239b43f3ccff7e23189830.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/06f\/d0c\/14fd10b759da8141670a0defe4.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/06f\/d0c\/14fd10b759da8141670a0defe4.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/06f\/d0c\/14fd10b759da8141670a0defe4.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/06f\/d0c\/14fd10b759da8141670a0defe4.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/918\/16b\/01398a54e482167d0a0cf85141.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/918\/16b\/01398a54e482167d0a0cf85141.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/918\/16b\/01398a54e482167d0a0cf85141.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/918\/16b\/01398a54e482167d0a0cf85141.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/604\/a8d\/bb28b04ec7c2150a63cb7eeda2.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/604\/a8d\/bb28b04ec7c2150a63cb7eeda2.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/604\/a8d\/bb28b04ec7c2150a63cb7eeda2.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/604\/a8d\/bb28b04ec7c2150a63cb7eeda2.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/429\/ba4\/a5d788b6d41763fd65a8531dc7.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/429\/ba4\/a5d788b6d41763fd65a8531dc7.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/429\/ba4\/a5d788b6d41763fd65a8531dc7.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/429\/ba4\/a5d788b6d41763fd65a8531dc7.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/2b4\/ae6\/50d603b511c64a6f0376fa4006.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/2b4\/ae6\/50d603b511c64a6f0376fa4006.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/2b4\/ae6\/50d603b511c64a6f0376fa4006.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/2b4\/ae6\/50d603b511c64a6f0376fa4006.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/6c9\/732\/4db574d975a6e23405ab84c4ac.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/6c9\/732\/4db574d975a6e23405ab84c4ac.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/6c9\/732\/4db574d975a6e23405ab84c4ac.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/6c9\/732\/4db574d975a6e23405ab84c4ac.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/1e8\/e34\/50c49cb9f122c6f5af5327b6c5.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/1e8\/e34\/50c49cb9f122c6f5af5327b6c5.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/1e8\/e34\/50c49cb9f122c6f5af5327b6c5.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/1e8\/e34\/50c49cb9f122c6f5af5327b6c5.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/ef1\/830\/bf9c841aa633dd2b91461feb4c.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/ef1\/830\/bf9c841aa633dd2b91461feb4c.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/ef1\/830\/bf9c841aa633dd2b91461feb4c.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/ef1\/830\/bf9c841aa633dd2b91461feb4c.jpg",
+            "aspectRatio": 1.3333333333333333
+        }
+    ],
+    "videos": [],
+    "loadingPrice": false,
+    "location": {
+        "type": "geo",
+        "level1": "Suisse",
+        "level2": "Berne",
+        "level3": "District d\u0027Obersimmental",
+        "level4": "Zweisimmen"
+    },
+    "locationTrailHeading": {
+        "type": "trail",
+        "search": "Zweisimmen, Berne",
+        "details": "Zweisimmen, Berne",
+        "toSki": "800 m d\u0027une station de ski",
+        "toCenter": "",
+        "toCenterShort": ""
+    },
+    "logo": {
+        "name": null,
+        "hotLink": [
+            null,
+            null,
+            "\/\/cdn.hometogo.net\/assets\/media\/pics\/216_90\/5ea844043aa19.png"
+        ]
+    },
+    "name": "Ferienhaus Sch\u00f6nenmatte",
+    "niceId": "HRE6C5P",
+    "persons": 6,
+    "price": {
+        "exact": true,
+        "total": "\u20ac667",
+        "totalFull": "\u20ac815",
+        "totalRaw": 668,
+        "totalRawEur": 667.31,
+        "totalRawFull": 814.54,
+        "currency": "EUR",
+        "usePriceNoTax": true,
+        "calculableFeesExcluded": true,
+        "perNight": "\u20ac95",
+        "mode": "totalPrice",
+        "display": "\u20ac667",
+        "perNightLabel": "\u20ac95 par nuit",
+        "totalPriceLabel": null,
+        "perStayLabel": "pour 7 nuits",
+        "perNightLabelNoPrice": "par nuit",
+        "rawPrice": 95.32992534854898,
+        "duration": 7,
+        "arrival": "2023-10-21"
+    },
+    "provider": "E-domizil",
+    "providerId": "eDomizil",
+    "providerNameLabel": null,
+    "highlightedDealInfo": null,
+    "ratings": {
+        "category": 5,
+        "value": "9,7",
+        "reviewCount": 8,
+        "reviewsWithTextCount": 6,
+        "maxStarValue": "5,0",
+        "starValue": "4,9",
+        "label": "\u00ab Excellent \u00bb",
+        "stars": 5,
+        "message": "",
+        "starMessage": "Evaluation moyenne de l\u0027h\u00e9bergement : 4,9 sur 5.",
+        "countLabel": "8 avis"
+    },
+    "rentalObjectId": "701d821c5033795e",
+    "recentlyViewed": false,
+    "salesArguments": [
+        {
+            "type": "topRated",
+            "slot": 10,
+            "props": {
+                "icon": "star-two",
+                "label": "Note excellente"
+            }
+        },
+        {
+            "type": "rating",
+            "slot": 1000000,
+            "props": {
+                "icon": "star-empty",
+                "label": "\u00ab Excellent \u00bb",
+                "descriptionText": "[strong]Les clients aiment cet h\u00e9bergement ![\/strong] Il est not\u00e9 4,9."
+            }
+        },
+        {
+            "type": "bookedOut",
+            "slot": 100,
+            "props": {
+                "icon": "bookedOut",
+                "descriptionText": "[strong]H\u00e9bergement populaire ![\/strong] 65% des chambres ont \u00e9t\u00e9 r\u00e9serv\u00e9es pour les prochaines dates de s\u00e9jour."
+            }
+        },
+        {
+            "type": "instantConfirmation",
+            "slot": 10,
+            "props": {
+                "icon": "thunder",
+                "label": "Confirmation instantan\u00e9e",
+                "tooltip": "R\u00e9servez sans attendre l\u0027approbation",
+                "propertyHighlightText": "R\u00e9servez sans attendre l\u0027approbation"
+            }
+        },
+        {
+            "type": "distanceToSkiLift",
+            "slot": 10000000,
+            "props": {
+                "icon": "ski",
+                "label": "Proche des remont\u00e9es m\u00e9caniques",
+                "propertyHighlightText": "800 m d\u0027une station de ski"
+            }
+        },
+        {
+            "type": "popularAmenities",
+            "slot": 10000000,
+            "props": {
+                "icon": "check-inverted",
+                "label": "Comprend l\u2019essentiel",
+                "propertyHighlightText": "Acc\u00e8s internet, Cuisine, Terrasse \/ balcon et plus"
+            }
+        },
+        {
+            "type": "highRating",
+            "slot": 10000000,
+            "props": {
+                "icon": "star",
+                "label": "Excellente propri\u00e9t\u00e9",
+                "propertyHighlightText": "La note moyenne est 4,9\/5,0"
+            }
+        },
+        {
+            "type": "safeBooking",
+            "slot": 10000000,
+            "props": {
+                "icon": "safe",
+                "label": "R\u00e9servez en toute s\u00e9curit\u00e9",
+                "propertyHighlightText": "Transfert s\u00e9curis\u00e9 et crypt\u00e9 de vos donn\u00e9es de paiement."
+            }
+        }
+    ],
+    "squareMeter": "115 m\u00b2",
+    "strikedPrice": null,
+    "attributesTitle": "115 m\u00b2 Maison de vacances \u2219 3 chambres \u2219 6 personnes",
+    "generalTitle": "Ferienhaus Sch\u00f6nenmatte",
+    "ctaButtonType": "default",
+    "tooltips": {
+        "method": "R\u00e9servez cette propri\u00e9t\u00e9 directement via notre site. Utilisez en un seul clic notre formulaire de r\u00e9servation.",
+        "redirect": "R\u00e9servez cette location avec  e-domizil.",
+        "price": null
+    },
+    "wishList": false,
+    "type": "Long\u00e8re",
+    "distanceToSearchedLocation": null,
+    "isAdvertisedOffer": false
+}

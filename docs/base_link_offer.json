@@ -1,0 +1,721 @@
+{
+    "SavePercentPrice": null,
+    "analytics": {
+        "objectId": "d13df7373c73eac7",
+        "providerId": "synthetic",
+        "location": "Schweiz\/Tessin\/Bezirk Locarno\/Brissago TI",
+        "locationId": "5460aeabae908",
+        "locationsIds": "5460aea910151\/5460aeabb0c5d\/5aeb9da56e46a\/5460aeabae908",
+        "type": "holiday_house",
+        "persons": 5,
+        "bedrooms": 3,
+        "amenities": "barbecue,bicycle_rental,children_friendly,coffee_machine,dishwasher,dryer,fan,fenced,fishing,freezer,fridge,garden,golf,hairdryer,heating,internet,kitchen,oven,parking,pets_allowed,pool,pool_private,radio,sauna,seaview,smoking_not_allowed,stereo,surf,tennis,terrace,toaster,tv,view_garden,view_mountain,view_nature,view_water,washing_machine_available,wellness,whirlpool",
+        "toWater": 600,
+        "toSki": 13000,
+        "price": 206,
+        "availability": "direct",
+        "personsDiff": 3,
+        "multiObjectId": "d13df7373c73eac7",
+        "multiDefProviderId": "eDomizil",
+        "multiDefObjectId": "3f25e62e2ca3c651f5b99d52f6ccc2ea",
+        "multiProviderIds": "eDomizil",
+        "multiPrices": "206",
+        "pcCampaigns": null,
+        "isFlexible": false,
+        "rating": 10,
+        "isNearby": false,
+        "tags": "1$$i0UcKBxb4TG5uqS3nRJMPo3t+6F6KoiCafs3U0nyNFtW3Ie\/39k3uOlzvlioFvz6yNKC\/1l+uEUAcaqj\/Pn+qg==",
+        "visibleProviderName": "e-domizil",
+        "tagsLive": "|completed|jagermeister|price_low_static|price_orig|price_unexpired|price_no_date_label|pc_pc_full|"
+    },
+    "analyticsPixel": {
+        "content_ids": [
+            "5460aea910151",
+            "5460aeabb0c5d",
+            "5aeb9da56e46a",
+            "5460aeabae908",
+            "c75d9c505070347a"
+        ],
+        "content_type": [
+            "destination",
+            "hotel"
+        ],
+        "checkin_date": null,
+        "travel_start": null,
+        "checkout_date": null,
+        "travel_end": null,
+        "num_adults": 5,
+        "value": 195.16,
+        "currency": "CHF",
+        "city": "Brissago TI",
+        "region": "Tessin",
+        "country": "Schweiz"
+    },
+    "analyticsSnowPlow": {
+        "offer": {
+            "unitId": "3f25e62e2ca3c651f5b99d52f6ccc2ea",
+            "providerId": "eDomizil",
+            "providerName": "e-domizil",
+            "pricePerNight": 206,
+            "availability": "direct",
+            "category": "multi_offer",
+            "multiId": "d13df7373c73eac7",
+            "multiOptions": null,
+            "pcCampaigns": null,
+            "title": "Luxusvilla Pool Panorma Privatsp\u00e4hre Ruhe",
+            "tags": "1$$i0UcKBxb4TG5uqS3nRJMPo3t+6F6KoiCafs3U0nyNFtW3Ie\/39k3uOlzvlioFvz6yNKC\/1l+uEUAcaqj\/Pn+qg==",
+            "biddingTags": "1$$3RBJzY+FQ7Ujc24+QKaODw==",
+            "tagsLive": [
+                "completed",
+                "jagermeister",
+                "price_low_static",
+                "price_orig",
+                "price_unexpired",
+                "price_no_date_label",
+                "single_option",
+                "rating_avail",
+                "uniqueAmenity_avail",
+                "instantConfirmation_avail",
+                "popularAmenities_avail",
+                "safeBooking_avail",
+                "customerService_avail",
+                "fallback_avail",
+                "hour_1",
+                "had_jm",
+                "unique_amenity_seaview",
+                "pc_pc_full",
+                "rdate_20231023",
+                "title_original"
+            ],
+            "ssa": "1$$UeHLRtHd3Bm628QsgLxEBw==",
+            "ssb": "1$$AY7J2LAuvLfxIDbaN7CfkQ==",
+            "ssc": "1$$GJ6110c8EQMHXPsMvfRtpQ==",
+            "rsd": null,
+            "tsd": "1$$nrAdpJerUbmLAfYetPOADWAzAPmmiHY10RnJlYxwZ2YRKKK3i5lmTBN8CroUYmNUwO2N1K+xdtXEoIP4OsR\/OOz8sU95C76vErMvr9w1Sb2WEbQKHahzfVHW87jLHO\/Ahf\/KEY7pnl4IA+e9+cquncMeKUPkjqYo+42ubSQD\/5244sNrkcGi6kFvDPo1Oa+7PBX6Fy5PzHHwiBiETkCM6gvcN9HZgd9F4sJ9T9nOadc=",
+            "discounts": "[{\u0022type\u0022:\u0022highest_range_discount\u0022,\u0022static_value\u0022:null,\u0022calc_value\u0022:null}]",
+            "imageCount": 50,
+            "videoCount": 0,
+            "firstImageId": "670f2d78cbfa7f63dcf3b76abec1db4e",
+            "mbpi": null,
+            "mbpu": null,
+            "country": "CH"
+        }
+    },
+    "actions": {
+        "conversion": {
+            "first": {
+                "link": "\/rental\/3f25e62e2ca3c651f5b99d52f6ccc2ea?location=5460aea910151\u0026pricetype=totalPrice\u0026duration=7\u0026timestamp=2023-10-23T08%3A49%3A32%2B02%3A00\u0026id=d13df7373c73eac7\u0026directId=3f25e62e2ca3c651f5b99d52f6ccc2ea\u0026searchId=7b1ac49362a232a6\u0026screen=search\u0026isHotel=0\u0026clickId=FVF92Z0LCJG2KTZY\u0026sT=dateless\u0026prodName=JM\u0026prodSource=Search",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            },
+            "second": {
+                "link": "\/deeplink\/?params=eJwlzkEOwiAQheG7sNUmMFNAegN3LrzAdBgiSWsbysYY7y7o9n3_4r3VsjHVvD3VpOzoNAkFo4016qz2klnqa5dmdau03PrQoOZVjkrr3gA04GD0AHjXl2kME8JJw6R163JsQTQYk0eP7FGIfdtjLsL12hUTWHEgwITsrEl2DiFaSI6ZQajVh1Dhx6_2syEeAzogQCDXlYtIf__P1OcLQ6Q8tg\u0026clo=1",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            },
+            "third": {
+                "link": "\/deeplink\/?params=eJwlzkEOwiAQheG7sNUmMFNAegN3LrzAdBgiSWsbysYY7y7o9n3_4r3VsjHVvD3VpOzoNAkFo4016qz2klnqa5dmdau03PrQoOZVjkrr3gA04GD0AHjXl2kME8JJw6R163JsQTQYk0eP7FGIfdtjLsL12hUTWHEgwITsrEl2DiFaSI6ZQajVh1Dhx6_2syEeAzogQCDXlYtIf__P1OcLQ6Q8tg\u0026clo=1",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            },
+            "fourth": {
+                "link": "\/deeplink\/?params=eJwlzkEOwiAQheG7sNUmMFNAegN3LrzAdBgiSWsbysYY7y7o9n3_4r3VsjHVvD3VpOzoNAkFo4016qz2klnqa5dmdau03PrQoOZVjkrr3gA04GD0AHjXl2kME8JJw6R163JsQTQYk0eP7FGIfdtjLsL12hUTWHEgwITsrEl2DiFaSI6ZQajVh1Dhx6_2syEeAzogQCDXlYtIf__P1OcLQ6Q8tg\u0026clo=2",
+                "conversionCategory": "clickout",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            },
+            "fifth": {
+                "link": "\/rental\/3f25e62e2ca3c651f5b99d52f6ccc2ea?location=5460aea910151\u0026pricetype=totalPrice\u0026duration=7\u0026timestamp=2023-10-23T08%3A49%3A32%2B02%3A00\u0026id=d13df7373c73eac7\u0026directId=3f25e62e2ca3c651f5b99d52f6ccc2ea\u0026searchId=7b1ac49362a232a6\u0026screen=search\u0026isHotel=0\u0026clickId=V4ZGP83MDV1JWPRJ\u0026sT=dateless\u0026prodName=JM\u0026prodSource=Search",
+                "conversionCategory": "rental_open",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            },
+            "sixth": {
+                "link": "\/deeplink\/?params=eJwlzkEOwiAQheG7sNUmMFNAegN3LrzAdBgiSWsbysYY7y7o9n3_4r3VsjHVvD3VpOzoNAkFo4016qz2klnqa5dmdau03PrQoOZVjkrr3gA04GD0AHjXl2kME8JJw6R163JsQTQYk0eP7FGIfdtjLsL12hUTWHEgwITsrEl2DiFaSI6ZQajVh1Dhx6_2syEeAzogQCDXlYtIf__P1OcLQ6Q8tg\u0026clo=1",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            },
+            "seventh": {
+                "link": "\/rental\/3f25e62e2ca3c651f5b99d52f6ccc2ea?location=5460aea910151\u0026pricetype=totalPrice\u0026duration=7\u0026timestamp=2023-10-23T08%3A49%3A32%2B02%3A00\u0026id=d13df7373c73eac7\u0026directId=3f25e62e2ca3c651f5b99d52f6ccc2ea\u0026searchId=7b1ac49362a232a6\u0026screen=search\u0026isHotel=0\u0026refEl=video\u0026clickId=027M2T8TV97S6GM9\u0026sT=dateless\u0026prodName=JM\u0026prodSource=Search",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            },
+            "eighth": {
+                "link": "\/checkout\/user\/3f25e62e2ca3c651f5b99d52f6ccc2ea?location=5460aea910151\u0026pricetype=totalPrice\u0026timestamp=2023-10-23T08:49:32%2B02:00\u0026id=d13df7373c73eac7\u0026directId=3f25e62e2ca3c651f5b99d52f6ccc2ea\u0026searchId=7b1ac49362a232a6\u0026screen=search\u0026isHotel=0",
+                "conversionCategory": "jagermeister_open",
+                "action": "follow",
+                "offerId": "3f25e62e2ca3c651f5b99d52f6ccc2ea"
+            }
+        },
+        "wishList": {
+            "add": {
+                "link": "\/pinboard\/update\/3f25e62e2ca3c651f5b99d52f6ccc2ea",
+                "method": "POST",
+                "parameters": {
+                    "locationId": "5460aea910151"
+                }
+            },
+            "delete": {
+                "link": "\/pinboard\/all\/3f25e62e2ca3c651f5b99d52f6ccc2ea",
+                "method": "DELETE",
+                "parameters": {}
+            }
+        }
+    },
+    "amenities": {
+        "icons": [
+            {
+                "label": "Angelm\u00f6glichkeit",
+                "icon": "fishing"
+            },
+            {
+                "label": "Haustier erlaubt",
+                "icon": "pets_allowed"
+            },
+            {
+                "label": "Privater Pool",
+                "icon": "pool_private"
+            },
+            {
+                "label": "Sp\u00fclmaschine",
+                "icon": "dishwasher"
+            },
+            {
+                "label": "Terrasse\/Balkon",
+                "icon": "terrace"
+            },
+            {
+                "label": "Waschmaschine",
+                "icon": "washing_machine_available"
+            },
+            {
+                "label": "TV",
+                "icon": "tv"
+            },
+            {
+                "label": "Internet",
+                "icon": "internet"
+            }
+        ]
+    },
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "bookedOut": false,
+    "boostedUrl": "",
+    "checkPrice": false,
+    "completed": true,
+    "constraintsBadge": null,
+    "dataCollectedTimestamp": "2023-10-23 08:32",
+    "debug": {},
+    "discountTooltip": null,
+    "fullGeoHash": "u0nnmfty9",
+    "geoLocation": {
+        "lat": 46.11351,
+        "lon": 8.69815
+    },
+    "h1": "240 m\u00b2 Ferienhaus",
+    "h2": {
+        "startTrail": "Brissago TI",
+        "endTrail": ", Bezirk Locarno, Schweiz"
+    },
+    "hotelStars": null,
+    "hotelStarsString": null,
+    "htgRatings": null,
+    "id": "3f25e62e2ca3c651f5b99d52f6ccc2ea",
+    "images": [
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/670\/f2d\/78cbfa7f63dcf3b76abec1db4e.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/670\/f2d\/78cbfa7f63dcf3b76abec1db4e.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/670\/f2d\/78cbfa7f63dcf3b76abec1db4e.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/670\/f2d\/78cbfa7f63dcf3b76abec1db4e.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/b48\/787\/9315c1a3bc436ce356eebe92b8.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/b48\/787\/9315c1a3bc436ce356eebe92b8.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/b48\/787\/9315c1a3bc436ce356eebe92b8.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/b48\/787\/9315c1a3bc436ce356eebe92b8.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/0e3\/230\/38d9c50e7a1e8ed78860fafa41.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/0e3\/230\/38d9c50e7a1e8ed78860fafa41.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/0e3\/230\/38d9c50e7a1e8ed78860fafa41.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/0e3\/230\/38d9c50e7a1e8ed78860fafa41.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/da9\/aca\/02a549d6adcaf5c2767f32b415.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/da9\/aca\/02a549d6adcaf5c2767f32b415.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/da9\/aca\/02a549d6adcaf5c2767f32b415.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/da9\/aca\/02a549d6adcaf5c2767f32b415.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/30e\/aee\/b3a4b8b69a1a0d93ff06728fa1.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/30e\/aee\/b3a4b8b69a1a0d93ff06728fa1.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/30e\/aee\/b3a4b8b69a1a0d93ff06728fa1.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/30e\/aee\/b3a4b8b69a1a0d93ff06728fa1.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/4d1\/e91\/c24e43f47e1d68982c5e91bd17.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/4d1\/e91\/c24e43f47e1d68982c5e91bd17.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/4d1\/e91\/c24e43f47e1d68982c5e91bd17.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/4d1\/e91\/c24e43f47e1d68982c5e91bd17.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/7dc\/093\/82b67357570b14b0618b4447d9.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/7dc\/093\/82b67357570b14b0618b4447d9.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/7dc\/093\/82b67357570b14b0618b4447d9.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/7dc\/093\/82b67357570b14b0618b4447d9.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/b53\/785\/2e8513bb012ade910d300c2e19.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/b53\/785\/2e8513bb012ade910d300c2e19.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/b53\/785\/2e8513bb012ade910d300c2e19.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/b53\/785\/2e8513bb012ade910d300c2e19.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/7b4\/892\/d96a478402280d3d4f379f6fc5.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/7b4\/892\/d96a478402280d3d4f379f6fc5.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/7b4\/892\/d96a478402280d3d4f379f6fc5.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/7b4\/892\/d96a478402280d3d4f379f6fc5.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/1dc\/215\/4cdc13829f97fee60c220241e1.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/1dc\/215\/4cdc13829f97fee60c220241e1.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/1dc\/215\/4cdc13829f97fee60c220241e1.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/1dc\/215\/4cdc13829f97fee60c220241e1.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/143\/505\/2402c424e7e1e5ccdea90e4d1b.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/143\/505\/2402c424e7e1e5ccdea90e4d1b.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/143\/505\/2402c424e7e1e5ccdea90e4d1b.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/143\/505\/2402c424e7e1e5ccdea90e4d1b.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/856\/f43\/b7f2dc2b3558a60c24c0b41987.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/856\/f43\/b7f2dc2b3558a60c24c0b41987.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/856\/f43\/b7f2dc2b3558a60c24c0b41987.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/856\/f43\/b7f2dc2b3558a60c24c0b41987.jpg",
+            "aspectRatio": 2.410041841004184
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/58f\/186\/2396cc2ab9872734146d0bfc42.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/58f\/186\/2396cc2ab9872734146d0bfc42.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/58f\/186\/2396cc2ab9872734146d0bfc42.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/58f\/186\/2396cc2ab9872734146d0bfc42.jpg",
+            "aspectRatio": 1.7777777777777777
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/b90\/52c\/0ba28f3ca6ab729542cf082dac.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/b90\/52c\/0ba28f3ca6ab729542cf082dac.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/b90\/52c\/0ba28f3ca6ab729542cf082dac.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/b90\/52c\/0ba28f3ca6ab729542cf082dac.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/5a8\/bab\/0edd46538264e448515c9f9342.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/5a8\/bab\/0edd46538264e448515c9f9342.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/5a8\/bab\/0edd46538264e448515c9f9342.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/5a8\/bab\/0edd46538264e448515c9f9342.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/66e\/20b\/b5eec6ed16f48d1397f265b5d8.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/66e\/20b\/b5eec6ed16f48d1397f265b5d8.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/66e\/20b\/b5eec6ed16f48d1397f265b5d8.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/66e\/20b\/b5eec6ed16f48d1397f265b5d8.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/d6f\/658\/5084d7925caed7bd1f252f5105.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/d6f\/658\/5084d7925caed7bd1f252f5105.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/d6f\/658\/5084d7925caed7bd1f252f5105.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/d6f\/658\/5084d7925caed7bd1f252f5105.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/963\/74d\/63fe2382c50c2ff8d00dfc3717.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/963\/74d\/63fe2382c50c2ff8d00dfc3717.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/963\/74d\/63fe2382c50c2ff8d00dfc3717.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/963\/74d\/63fe2382c50c2ff8d00dfc3717.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/4ee\/a29\/d25a5bb81f4b568a6a66f5b993.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/4ee\/a29\/d25a5bb81f4b568a6a66f5b993.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/4ee\/a29\/d25a5bb81f4b568a6a66f5b993.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/4ee\/a29\/d25a5bb81f4b568a6a66f5b993.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/9b7\/ed4\/a9cea179191a45ba8174594594.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/9b7\/ed4\/a9cea179191a45ba8174594594.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/9b7\/ed4\/a9cea179191a45ba8174594594.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/9b7\/ed4\/a9cea179191a45ba8174594594.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/736\/263\/4406a849373ef678111efc725a.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/736\/263\/4406a849373ef678111efc725a.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/736\/263\/4406a849373ef678111efc725a.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/736\/263\/4406a849373ef678111efc725a.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/fb5\/8f1\/758cb47e5046b31b67cbb43736.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/fb5\/8f1\/758cb47e5046b31b67cbb43736.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/fb5\/8f1\/758cb47e5046b31b67cbb43736.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/fb5\/8f1\/758cb47e5046b31b67cbb43736.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/1e1\/938\/0071780f736f928fa09cbf839b.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/1e1\/938\/0071780f736f928fa09cbf839b.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/1e1\/938\/0071780f736f928fa09cbf839b.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/1e1\/938\/0071780f736f928fa09cbf839b.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/0c3\/74a\/e4f22425b5ba568acdde204f15.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/0c3\/74a\/e4f22425b5ba568acdde204f15.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/0c3\/74a\/e4f22425b5ba568acdde204f15.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/0c3\/74a\/e4f22425b5ba568acdde204f15.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/321\/838\/b5a8def3fc30ae2fa1ab31aee8.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/321\/838\/b5a8def3fc30ae2fa1ab31aee8.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/321\/838\/b5a8def3fc30ae2fa1ab31aee8.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/321\/838\/b5a8def3fc30ae2fa1ab31aee8.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/af6\/cc3\/19a0007b9da401685dc23797ec.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/af6\/cc3\/19a0007b9da401685dc23797ec.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/af6\/cc3\/19a0007b9da401685dc23797ec.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/af6\/cc3\/19a0007b9da401685dc23797ec.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/10b\/e3b\/e898e1c2849c0257a8ae690d65.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/10b\/e3b\/e898e1c2849c0257a8ae690d65.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/10b\/e3b\/e898e1c2849c0257a8ae690d65.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/10b\/e3b\/e898e1c2849c0257a8ae690d65.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/156\/442\/e89783a337e16782ee2b0d9fe8.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/156\/442\/e89783a337e16782ee2b0d9fe8.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/156\/442\/e89783a337e16782ee2b0d9fe8.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/156\/442\/e89783a337e16782ee2b0d9fe8.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/fb7\/1ff\/f03d2f5c438aebc1374cfdda1a.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/fb7\/1ff\/f03d2f5c438aebc1374cfdda1a.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/fb7\/1ff\/f03d2f5c438aebc1374cfdda1a.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/fb7\/1ff\/f03d2f5c438aebc1374cfdda1a.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/9a7\/e91\/13c15732a3b27a31ec399896af.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/9a7\/e91\/13c15732a3b27a31ec399896af.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/9a7\/e91\/13c15732a3b27a31ec399896af.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/9a7\/e91\/13c15732a3b27a31ec399896af.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/576\/dfe\/c472a113b62a5be47bbfb1cb35.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/576\/dfe\/c472a113b62a5be47bbfb1cb35.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/576\/dfe\/c472a113b62a5be47bbfb1cb35.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/576\/dfe\/c472a113b62a5be47bbfb1cb35.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/d64\/beb\/bd2f72fcdbfa56d516804006b4.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/d64\/beb\/bd2f72fcdbfa56d516804006b4.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/d64\/beb\/bd2f72fcdbfa56d516804006b4.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/d64\/beb\/bd2f72fcdbfa56d516804006b4.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/e14\/27c\/aa70736681dfc4da99f191631d.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/e14\/27c\/aa70736681dfc4da99f191631d.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/e14\/27c\/aa70736681dfc4da99f191631d.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/e14\/27c\/aa70736681dfc4da99f191631d.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/e91\/94f\/77a9f016b2a6eaf309b85873ac.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/e91\/94f\/77a9f016b2a6eaf309b85873ac.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/e91\/94f\/77a9f016b2a6eaf309b85873ac.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/e91\/94f\/77a9f016b2a6eaf309b85873ac.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/05d\/d12\/64a875a93df34aacae773d0dc1.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/05d\/d12\/64a875a93df34aacae773d0dc1.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/05d\/d12\/64a875a93df34aacae773d0dc1.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/05d\/d12\/64a875a93df34aacae773d0dc1.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/955\/036\/51873ab96e9a7961d1454a29f2.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/955\/036\/51873ab96e9a7961d1454a29f2.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/955\/036\/51873ab96e9a7961d1454a29f2.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/955\/036\/51873ab96e9a7961d1454a29f2.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/b18\/cb5\/e51ffee5bb695f75b477e73ab7.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/b18\/cb5\/e51ffee5bb695f75b477e73ab7.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/b18\/cb5\/e51ffee5bb695f75b477e73ab7.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/b18\/cb5\/e51ffee5bb695f75b477e73ab7.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/58a\/6ff\/47b39edf3c50ccbd0021380cc3.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/58a\/6ff\/47b39edf3c50ccbd0021380cc3.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/58a\/6ff\/47b39edf3c50ccbd0021380cc3.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/58a\/6ff\/47b39edf3c50ccbd0021380cc3.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/ff2\/f77\/f971cd65815df520d7ceb5642d.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/ff2\/f77\/f971cd65815df520d7ceb5642d.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/ff2\/f77\/f971cd65815df520d7ceb5642d.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/ff2\/f77\/f971cd65815df520d7ceb5642d.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/1ba\/469\/24cc4c77fc515c0a7082c0e785.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/1ba\/469\/24cc4c77fc515c0a7082c0e785.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/1ba\/469\/24cc4c77fc515c0a7082c0e785.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/1ba\/469\/24cc4c77fc515c0a7082c0e785.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/c98\/742\/584eeb8abbcf7a9563548aff74.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/c98\/742\/584eeb8abbcf7a9563548aff74.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/c98\/742\/584eeb8abbcf7a9563548aff74.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/c98\/742\/584eeb8abbcf7a9563548aff74.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/75b\/1c1\/2db9effa82dcad9b30adacef4b.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/75b\/1c1\/2db9effa82dcad9b30adacef4b.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/75b\/1c1\/2db9effa82dcad9b30adacef4b.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/75b\/1c1\/2db9effa82dcad9b30adacef4b.jpg",
+            "aspectRatio": 1.3333333333333333
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/dec\/90f\/e3a96ae57aff84fb3f21531535.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/dec\/90f\/e3a96ae57aff84fb3f21531535.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/dec\/90f\/e3a96ae57aff84fb3f21531535.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/dec\/90f\/e3a96ae57aff84fb3f21531535.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/f8c\/91b\/229b10a87a1f3f364b1ae680cf.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/f8c\/91b\/229b10a87a1f3f364b1ae680cf.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/f8c\/91b\/229b10a87a1f3f364b1ae680cf.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/f8c\/91b\/229b10a87a1f3f364b1ae680cf.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/a76\/181\/998769591d7c5432165f9600fe.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/a76\/181\/998769591d7c5432165f9600fe.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/a76\/181\/998769591d7c5432165f9600fe.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/a76\/181\/998769591d7c5432165f9600fe.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/397\/367\/5101147f645a69dacee825aace.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/397\/367\/5101147f645a69dacee825aace.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/397\/367\/5101147f645a69dacee825aace.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/397\/367\/5101147f645a69dacee825aace.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/306\/342\/72b975809c28c189cf0b5c605c.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/306\/342\/72b975809c28c189cf0b5c605c.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/306\/342\/72b975809c28c189cf0b5c605c.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/306\/342\/72b975809c28c189cf0b5c605c.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/d07\/833\/2001e8cee6c3c05978ac34e9b1.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/d07\/833\/2001e8cee6c3c05978ac34e9b1.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/d07\/833\/2001e8cee6c3c05978ac34e9b1.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/d07\/833\/2001e8cee6c3c05978ac34e9b1.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/dd4\/57c\/f88dab880ab63e76fddb30ae30.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/dd4\/57c\/f88dab880ab63e76fddb30ae30.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/dd4\/57c\/f88dab880ab63e76fddb30ae30.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/dd4\/57c\/f88dab880ab63e76fddb30ae30.jpg",
+            "aspectRatio": 0.75
+        },
+        {
+            "small": "\/\/cdn.hometogo.net\/small\/v1\/bc9\/967\/19b9908983531853ad341ee5ad.jpg",
+            "medium": "\/\/cdn.hometogo.net\/medium\/v1\/bc9\/967\/19b9908983531853ad341ee5ad.jpg",
+            "large": "\/\/cdn.hometogo.net\/large\/v1\/bc9\/967\/19b9908983531853ad341ee5ad.jpg",
+            "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/bc9\/967\/19b9908983531853ad341ee5ad.jpg",
+            "aspectRatio": 0.75
+        }
+    ],
+    "videos": [],
+    "loadingPrice": false,
+    "location": {
+        "type": "geo",
+        "level1": "Schweiz",
+        "level2": "Tessin",
+        "level3": "Bezirk Locarno",
+        "level4": "Brissago TI"
+    },
+    "locationTrailHeading": {
+        "type": "trail",
+        "search": "Brissago TI, Tessin",
+        "details": "Brissago TI, Tessin",
+        "toSki": null,
+        "toCenter": "",
+        "toCenterShort": ""
+    },
+    "logo": {
+        "name": null,
+        "hotLink": [
+            null,
+            null,
+            "\/\/cdn.hometogo.net\/assets\/media\/pics\/216_90\/5ea844043aa19.png"
+        ]
+    },
+    "name": "Luxusvilla Pool Panorma Privatsp\u00e4hre Ruhe",
+    "niceId": "HRK362N",
+    "persons": 5,
+    "price": {
+        "exact": false,
+        "total": "CHF\u00a01,366",
+        "totalFull": "CHF\u00a01,366",
+        "totalRaw": 1367,
+        "totalRawEur": 1442,
+        "totalRawFull": 1366.1,
+        "currency": "CHF",
+        "usePriceNoTax": false,
+        "calculableFeesExcluded": false,
+        "perNight": "CHF\u00a0195",
+        "mode": "perNight",
+        "display": "CHF\u00a0195",
+        "perNightLabel": null,
+        "totalPriceLabel": null,
+        "perStayLabel": "f\u00fcr 7 N\u00e4chte",
+        "perNightLabelNoPrice": "pro Nacht",
+        "rawPrice": 195.15730985987003,
+        "duration": 7,
+        "arrival": "2023-11-12"
+    },
+    "provider": "E-domizil",
+    "providerId": "eDomizil",
+    "providerNameLabel": null,
+    "highlightedDealInfo": null,
+    "ratings": {
+        "category": 5,
+        "value": "10,0",
+        "reviewCount": 2,
+        "reviewsWithTextCount": 1,
+        "maxStarValue": "5,0",
+        "starValue": "5,0",
+        "label": "\u201eExzellent\u201c",
+        "stars": 5,
+        "message": "",
+        "starMessage": "Durchschnittliche Bewertung: 5,0 von 5.",
+        "countLabel": "2 Bewertungen"
+    },
+    "rentalObjectId": "87c02f419ed26752",
+    "recentlyViewed": false,
+    "salesArguments": [
+        {
+            "type": "rating",
+            "slot": 1000000,
+            "props": {
+                "icon": "star-empty",
+                "label": "\u201eExzellent\u201c",
+                "descriptionText": "[strong]G\u00e4ste lieben diese Unterkunft![\/strong] Sie hat eine Bewertung von 5,0."
+            }
+        },
+        {
+            "type": "uniqueAmenity",
+            "slot": 10010000,
+            "props": {
+                "icon": "seaview",
+                "label": "Meerblick",
+                "propertyHighlightText": "Einzigartig f\u00fcr diese Gegend"
+            }
+        },
+        {
+            "type": "instantConfirmation",
+            "slot": 10,
+            "props": {
+                "icon": "thunder",
+                "label": "Sofortige Best\u00e4tigung",
+                "tooltip": "Buchen, ohne auf Genehmigung zu warten",
+                "propertyHighlightText": "Buchen, ohne auf Genehmigung zu warten"
+            }
+        },
+        {
+            "type": "popularAmenities",
+            "slot": 10000000,
+            "props": {
+                "icon": "check-inverted",
+                "label": "Enth\u00e4lt alles Wesentliche",
+                "propertyHighlightText": "Pool, Internet, K\u00fcche und mehr"
+            }
+        },
+        {
+            "type": "safeBooking",
+            "slot": 10000000,
+            "props": {
+                "icon": "safe",
+                "label": "Sicher buchen",
+                "propertyHighlightText": "Sichere und verschl\u00fcsselte \u00dcbertragung deiner Zahlungsdaten."
+            }
+        },
+        {
+            "type": "customerService",
+            "slot": 10000000,
+            "props": {
+                "icon": "telephone",
+                "label": "Gro\u00dfartiger Kundenservice",
+                "propertyHighlightText": "Erstklassiger Kundendienst, auf den du z\u00e4hlen kannst."
+            }
+        }
+    ],
+    "squareMeter": "240 m\u00b2",
+    "strikedPrice": null,
+    "attributesTitle": "240 m\u00b2 Ferienhaus \u2219 3 Schlafzimmer \u2219 5 Personen",
+    "generalTitle": "Luxusvilla Pool Panorma Privatsp\u00e4hre Ruhe",
+    "ctaButtonType": "default",
+    "tooltips": {
+        "method": "Buche diese Unterkunft direkt auf unserer Seite. Mit einem Klick gelangst du zum Buchungsformular.",
+        "redirect": "Buche dieses Angebot bei e-domizil.",
+        "price": "Um genauere Preisangaben zu erhalten, w\u00e4hle bitte dein An- und Abreisedatum."
+    },
+    "wishList": false,
+    "type": "Ferienhaus",
+    "distanceToSearchedLocation": null,
+    "isAdvertisedOffer": false
+}

@@ -1,0 +1,184 @@
+{
+    "id": "5b9fbdda637c54fc48061f94599d7e46",
+    "title": "Appartement 80 m\u00b2",
+    "imageLinks": {
+        "small": "\/\/cdn.hometogo.net\/small\/v1\/0b6\/29f\/8d2a4532ae22efc9dc5da8c169.jpg",
+        "medium": "\/\/cdn.hometogo.net\/medium\/v1\/0b6\/29f\/8d2a4532ae22efc9dc5da8c169.jpg",
+        "large": "\/\/cdn.hometogo.net\/large\/v1\/0b6\/29f\/8d2a4532ae22efc9dc5da8c169.jpg",
+        "thumbnail": "\/\/cdn.hometogo.net\/small\/v1\/0b6\/29f\/8d2a4532ae22efc9dc5da8c169.jpg",
+        "aspectRatio": 1.7777777777777777
+    },
+    "lowestPriceInfo": {
+        "display": "\u20ac1,158"
+    },
+    "deepLink": "\/deeplink\/?params=eJxNjksOwjAMRO-SLVRyvq17A3YsuICbOCJSS6s0ICHE3UkEC5ae90bjlwj3TCWtNzG6o5hX_zuENQ6ICSVIK8VRUM7pQXMlCpTuJHQKa7zl5Lk8N66grIXmcwsqKGnhvdCy_Tf0BXCUerTDAdQIUL0U2tiEcQqBnO69NdGbAZyMaCxi6Nm46u1M2V9PzXYOTR9xcBR9iOwb9Zm5vf3VxPsDtL0-Xw",
+    "actions": {
+        "conversion": {
+            "first": {
+                "link": "\/rental\/5b9fbdda637c54fc48061f94599d7e46?duration=6\u0026location=5460aea910151\u0026arrival=2023-10-29\u0026pricetype=totalPrice\u0026searchId=66947f986afcdfec",
+                "conversionCategory": "rental_open",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            },
+            "second": {
+                "link": "\/deeplink\/?params=eJxNjksOwjAMRO-SLVRyvq17A3YsuICbOCJSS6s0ICHE3UkEC5ae90bjlwj3TCWtNzG6o5hX_zuENQ6ICSVIK8VRUM7pQXMlCpTuJHQKa7zl5Lk8N66grIXmcwsqKGnhvdCy_Tf0BXCUerTDAdQIUL0U2tiEcQqBnO69NdGbAZyMaCxi6Nm46u1M2V9PzXYOTR9xcBR9iOwb9Zm5vf3VxPsDtL0-Xw\u0026clo=1",
+                "conversionCategory": "clickout",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            },
+            "third": {
+                "link": "\/deeplink\/?params=eJxNjksOwjAMRO-SLVRyvq17A3YsuICbOCJSS6s0ICHE3UkEC5ae90bjlwj3TCWtNzG6o5hX_zuENQ6ICSVIK8VRUM7pQXMlCpTuJHQKa7zl5Lk8N66grIXmcwsqKGnhvdCy_Tf0BXCUerTDAdQIUL0U2tiEcQqBnO69NdGbAZyMaCxi6Nm46u1M2V9PzXYOTR9xcBR9iOwb9Zm5vf3VxPsDtL0-Xw\u0026clo=1",
+                "conversionCategory": "clickout",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            },
+            "fourth": {
+                "link": "\/deeplink\/?params=eJxNjksOwjAMRO-SLVRyvq17A3YsuICbOCJSS6s0ICHE3UkEC5ae90bjlwj3TCWtNzG6o5hX_zuENQ6ICSVIK8VRUM7pQXMlCpTuJHQKa7zl5Lk8N66grIXmcwsqKGnhvdCy_Tf0BXCUerTDAdQIUL0U2tiEcQqBnO69NdGbAZyMaCxi6Nm46u1M2V9PzXYOTR9xcBR9iOwb9Zm5vf3VxPsDtL0-Xw\u0026clo=2",
+                "conversionCategory": "clickout",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            },
+            "fifth": {
+                "link": "\/rental\/5b9fbdda637c54fc48061f94599d7e46?duration=6\u0026location=5460aea910151\u0026arrival=2023-10-29\u0026pricetype=totalPrice\u0026searchId=66947f986afcdfec",
+                "conversionCategory": "rental_open",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            },
+            "sixth": {
+                "link": "\/deeplink\/?params=eJxNjksOwjAMRO-SLVRyvq17A3YsuICbOCJSS6s0ICHE3UkEC5ae90bjlwj3TCWtNzG6o5hX_zuENQ6ICSVIK8VRUM7pQXMlCpTuJHQKa7zl5Lk8N66grIXmcwsqKGnhvdCy_Tf0BXCUerTDAdQIUL0U2tiEcQqBnO69NdGbAZyMaCxi6Nm46u1M2V9PzXYOTR9xcBR9iOwb9Zm5vf3VxPsDtL0-Xw\u0026clo=1",
+                "conversionCategory": "clickout",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            },
+            "seventh": {
+                "link": "\/rental\/5b9fbdda637c54fc48061f94599d7e46?duration=6\u0026location=5460aea910151\u0026arrival=2023-10-29\u0026pricetype=totalPrice\u0026searchId=66947f986afcdfec\u0026refEl=video",
+                "conversionCategory": "rental_open",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            },
+            "eighth": {
+                "link": "\/rental\/5b9fbdda637c54fc48061f94599d7e46?duration=6\u0026location=5460aea910151\u0026arrival=2023-10-29\u0026pricetype=totalPrice\u0026searchId=66947f986afcdfec",
+                "conversionCategory": "rental_open",
+                "action": "follow",
+                "offerId": "5b9fbdda637c54fc48061f94599d7e46"
+            }
+        },
+        "wishList": {
+            "add": {
+                "link": "\/pinboard\/update\/5b9fbdda637c54fc48061f94599d7e46",
+                "method": "POST",
+                "parameters": {
+                    "locationId": "5460aea910151"
+                }
+            },
+            "delete": {
+                "link": "\/pinboard\/all\/5b9fbdda637c54fc48061f94599d7e46",
+                "method": "DELETE",
+                "parameters": {}
+            }
+        }
+    },
+    "initialPrice": null,
+    "locationTrailHeader": "Suisse",
+    "rentalObjectId": "858cacfccd5eec1b",
+    "geoLocation": {
+        "lat": 46.82913,
+        "lon": 7.43393
+    },
+    "fullGeoHash": "u0m63hvpr",
+    "nearby": false,
+    "alias": [
+        "eDomizil-3161696",
+        "c7b1e717fe4a7ac7",
+        "5b9fbdda637c54fc48061f94599d7e46",
+        "858cacfccd5eec1b",
+        "edomizil_id-3161696",
+        "e82bd2553bea9b72447cd5604bf01be9"
+    ],
+    "availabilityStatus": null,
+    "amenities": {
+        "labelSectionTitle": "\u00c9quipements",
+        "common": [
+            {
+                "label": "Lave-vaisselle",
+                "amenity": "dishwasher"
+            },
+            {
+                "label": "Terrasse \/ balcon",
+                "amenity": "terrace"
+            },
+            {
+                "label": "TV",
+                "amenity": "tv"
+            },
+            {
+                "label": "Climatisation",
+                "amenity": "air_conditioning"
+            },
+            {
+                "label": "Acc\u00e8s internet",
+                "amenity": "internet"
+            },
+            {
+                "label": "Sauna",
+                "amenity": "sauna"
+            },
+            {
+                "label": "Chemin\u00e9e",
+                "amenity": "fireplace"
+            },
+            {
+                "label": "Micro-ondes",
+                "amenity": "microwave"
+            },
+            {
+                "label": "Animaux non autoris\u00e9s",
+                "amenity": "no_dogs"
+            },
+            {
+                "label": "Interdit de fumer",
+                "amenity": "smoking_not_allowed"
+            },
+            {
+                "label": "Cuisine",
+                "amenity": "kitchen"
+            },
+            {
+                "label": "Jardin",
+                "amenity": "garden"
+            },
+            {
+                "label": "Barbecue",
+                "amenity": "barbecue"
+            },
+            {
+                "label": "Jacuzzi",
+                "amenity": "whirlpool"
+            },
+            {
+                "label": "S\u00e8che-cheveux",
+                "amenity": "hairdryer"
+            },
+            {
+                "label": "Cafeti\u00e8re",
+                "amenity": "coffee_machine"
+            },
+            {
+                "label": "Bouilloire",
+                "amenity": "kettle"
+            },
+            {
+                "label": "Grille-pain",
+                "amenity": "toaster"
+            },
+            {
+                "label": "Cl\u00f4ture",
+                "amenity": "fenced"
+            }
+        ]
+    },
+    "analyticsSnowPlow": {},
+    "sort": null,
+    "serpImageIndex": 0,
+    "debug": null
+}
