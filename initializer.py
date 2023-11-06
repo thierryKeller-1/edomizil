@@ -41,7 +41,7 @@ class EdomizilInitScraper(object):
 
     def load_configs(self) -> None:
         print('  ==> loading config files')
-        df = pd.read_csv(f'{self.base_config}/edomizil/destination_ids.csv')
+        df = pd.read_csv(f'{self.base_config}/destination_ids.csv')
         self.dest_ids = df.to_dict(orient='records')
 
     def create_logs(self) -> None:

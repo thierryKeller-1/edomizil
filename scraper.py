@@ -111,13 +111,13 @@ class EdomizilScraper(object):
             self.driver.maximize_window()
 
     def goto_page(self, url:str, date:str) -> None:
-        print(f"    => {url}")
         if self.cycle_count >= self.max_cycle:
             print('   ==> max cycle reached')
             self.use_new_driver()
             self.cycle_count = 0
         try:
             normalized_url = self.normalize_url(url, date)
+            print(f"    => {normalized_url}")
             self.driver.get(normalized_url)
             WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//div[@data-test='rental-sidebar']")))
             while "disponibilité en cours de vérification" in self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").text.lower().strip():
@@ -152,7 +152,7 @@ class EdomizilScraper(object):
         identifiant = info_cleaned.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
         typologie = info_cleaned.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
         nom = info_cleaned.find('div', {'class':"rows>m4"}).text.strip().split('personnes')[-1].replace(',', ' -')
-        price = int(''.join(filter(str.isdigit, info_cleaned.find('div', {'class':"heading-medium"}).text.replace(',', '').strip()[1:])))
+        price = info_cleaned.find('div', {'class':"heading-medium"}).text.replace(',', '').strip()[1:]
         arrival_date = datetime.strptime(parse_qs(urlparse(self.driver.current_url).query)['arrival'][0], "%Y-%m-%d").strftime("%d/%m/%Y")
         data = {
             'date_scrap': datetime.now().strftime("%d/%m/%Y"),
