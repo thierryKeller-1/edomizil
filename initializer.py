@@ -38,6 +38,10 @@ class EdomizilInitScraper(object):
         self.browser = self.playwright.chromium.launch(headless=False, args=['--start-maximized'])
         self.context = self.browser.new_context(no_viewport=True)
         self.page = self.context.new_page()
+        self.go_to_welcome_page()
+
+    def go_to_welcome_page(self):
+        self.goto_page("https://www.e-domizil.ch")
 
     def load_configs(self) -> None:
         print('  ==> loading config files')

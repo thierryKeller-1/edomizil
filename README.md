@@ -10,3 +10,6 @@ LOG_FOLDER_PATH="/home/dev/work/www/suisse/edomizil/logs"
 CONFIG_FOLDER_PATH="/home/dev/work/www/suisse/edomizil/configs"
 OUTPUT_FOLDER_PATH="/home/dev/work/www/suisse/edomizil/results"
 DESTS_FOLDER_PATH="/home/dev/work/www/suisse/edomizil/dests"
+
+sudo nmcli con status down fr.protonvpn.net.udp
+sudo nmcli con status up fr.protonvpn.net.udp
