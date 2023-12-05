@@ -152,7 +152,7 @@ class EdomizilScraper(object):
         identifiant = info_cleaned.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
         typologie = info_cleaned.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
         nom = info_cleaned.find('div', {'class':"rows>m4"}).text.strip().split('personnes')[-1].replace(',', ' -')
-        price = info_cleaned.find('div', {'class':"heading-medium"}).text.replace(',', '').strip()[1:]
+        price = info_cleaned.find('div', {'data-test':"total-price"}).find('span', {'class':'wsnw'}).text.replace('\u202f', '').replace(' ', '').replace(',', '').strip()[:-2]
         arrival_date = datetime.strptime(parse_qs(urlparse(self.driver.current_url).query)['arrival'][0], "%Y-%m-%d").strftime("%d/%m/%Y")
         data = {
             'date_scrap': datetime.now().strftime("%d/%m/%Y"),
