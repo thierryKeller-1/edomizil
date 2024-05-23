@@ -42,6 +42,11 @@ class EdomizilScraper(object):
         self.chrome_options.add_argument('--incognito')
         # self.chrome_options.add_argument('--headless')
 
+        self.firefox_options = webdriver.FirefoxOptions()
+        self.firefox_options.add_argument('--disable-gpu')
+        self.firefox_options.add_argument('--incognito')
+        # self.chrome_options.add_argument('--headless')
+
         self.use_new_driver()
 
     def normalize_url(self, url:str, date:str) -> str:
@@ -105,10 +110,11 @@ class EdomizilScraper(object):
         try:
             self.driver.quit()
             self.driver = webdriver.Chrome(options=self.chrome_options)
-            self.driver.maximize_window()
         except Exception:
             self.driver = webdriver.Chrome(options=self.chrome_options)
-            self.driver.maximize_window()
+            # self.driver = webdriver.Firefox(options=self.firefox_options)
+        
+        self.driver.maximize_window()
 
     def goto_page(self, url:str, date:str) -> None:
         if self.cycle_count >= self.max_cycle:
@@ -120,14 +126,19 @@ class EdomizilScraper(object):
             print(f"    => {normalized_url}")
             self.driver.get(normalized_url)
             WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//div[@data-test='rental-sidebar']")))
+            waiting_count = 0
             while "disponibilité en cours de vérification" in self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").text.lower().strip():
                 print("    =>  waiting for data to be loaded")
+                if waiting_count >= 5:
+                    waiting_count = 0
+                    self.use_new_driver()
+                    self.goto_page(url, date)
                 time.sleep(1)
+                waiting_count += 1
         except TimeoutException:
             print('     ===> TimeoutException')
             self.use_new_driver()
             self.goto_page(url, date)
-            WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//div[@data-test='rental-sidebar']")))
         self.cycle_count += 1
         
 
