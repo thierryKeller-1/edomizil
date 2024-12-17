@@ -164,19 +164,27 @@ class EdomizilScraper(object):
 
     def extract_data(self) -> None:
         print('    =>  extracting data')
-        info_container = self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").get_attribute('innerHTML')
-        info_cleaned = self.soupify(info_container)
-        input('pause')
+        time.sleep(2)
+        soupe = self.soupify(self.driver.page_source)
+        info_container = soupe.find("div", {"data-test":'rental-sidebar'})
+        identifiant = ""
+        typologie = ""
         try:
-            identifiant = info_cleaned.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
+            identifiant = info_container.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
         except:
-            identifiant = info_cleaned.find('div', {'class':"c-gray-extra-dark fwb"}).text.strip()
-        # identifiant = self.driver.find_element(By.CLASS_NAME, "bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small").find_elements('span')[-1].text.strip()
-        # if identifiant == "None"
+            identifiant = soupe.find("div", "c-gray-extra-dark fwb").text.strip()
 
-        typologie = info_cleaned.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
-        nom = info_cleaned.find('div', {'class':"rows>m4"}).text.strip().split('personnes')[-1].replace(',', ' -')
-        price = info_cleaned.find('div', {'data-test':'total-price'}).find('span', {'class':"wsnw"}).text.replace('\u202f', '').replace(' ','').replace(',', '.').strip()[:-2]
+        try:
+            typologie = info_container.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
+        except:
+            typologie = soupe.find('span', {'class':"text-medium fwb db cols>m4"}).text.strip()
+
+        nom = soupe.find('article', {'class':"df db-print"}).find('h1', {'role':'button'}).text.strip().replace(',', ' -')
+        price = info_container.find('div', {'data-test':"total-price"}).find('span', {'class':'wsnw'}).text.replace('\u202f', '').replace(' ', '')
+        if price[0] == "€":
+            price = price.replace('€', '').replace(',', '')
+        else:
+            price = price.replace('.', '').replace(',', '.')
         arrival_date = datetime.strptime(parse_qs(urlparse(self.driver.current_url).query)['arrival'][0], "%Y-%m-%d").strftime("%d/%m/%Y")
         data = {
             'date_scrap': datetime.now().strftime("%d/%m/%Y"),
