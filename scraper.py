@@ -64,7 +64,7 @@ class EdomizilScraper(object):
         default_log = {'last_dest': 0}
 
         self.logfile_path = f"{self.base_log}/edomizil/{self.week_scrap}/start/{self.filename}.json"
-        self.dest_path = f"{self.base_dests}/{self.dest_name}"
+        self.dest_path = f"{self.base_dests}/{self.dest_name}.json"
         self.output_path = f"{self.base_output}/edomizil/{self.week_scrap}/results/{self.filename}.csv"
 
         if not Path(self.output_path).exists():
@@ -147,12 +147,27 @@ class EdomizilScraper(object):
 
     def extract_data(self) -> None:
         print('    =>  extracting data')
-        info_container = self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").get_attribute('innerHTML')
-        info_cleaned = self.soupify(info_container)
-        identifiant = info_cleaned.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
-        typologie = info_cleaned.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
-        nom = info_cleaned.find('div', {'class':"rows>m4"}).text.strip().split('personnes')[-1].replace(',', ' -')
-        price = info_cleaned.find('div', {'data-test':"total-price"}).find('span', {'class':'wsnw'}).text.replace('\u202f', '').replace(' ', '').replace(',', '').strip()[:-2]
+        time.sleep(2)
+        soupe = self.soupify(self.driver.page_source)
+        info_container = soupe.find("div", {"data-test":'rental-sidebar'})
+        identifiant = ""
+        typologie = ""
+        try:
+            identifiant = info_container.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
+        except:
+            identifiant = soupe.find("div", "c-gray-extra-dark fwb").text.strip()
+
+        try:
+            typologie = info_container.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
+        except:
+            typologie = soupe.find('span', {'class':"text-medium fwb db cols>m4"}).text.strip()
+
+        nom = soupe.find('article', {'class':"df db-print"}).find('h1', {'role':'button'}).text.strip().replace(',', ' -')
+        price = info_container.find('div', {'data-test':"total-price"}).find('span', {'class':'wsnw'}).text.replace('\u202f', '').replace(' ', '')
+        if price[0] == "€":
+            price = price.replace('€', '').replace(',', '')
+        else:
+            price = price.replace('.', '').replace(',', '.')
         arrival_date = datetime.strptime(parse_qs(urlparse(self.driver.current_url).query)['arrival'][0], "%Y-%m-%d").strftime("%d/%m/%Y")
         data = {
             'date_scrap': datetime.now().strftime("%d/%m/%Y"),
