@@ -17,6 +17,9 @@ import csv
 
 load_dotenv()
 
+
+
+
 class EdomizilScraper(object):
 
     def __init__(self,filename:str, dest_name:str, date_start:str, date_end:str) -> None:
@@ -30,16 +33,18 @@ class EdomizilScraper(object):
         self.cycle_count = 0
         self.max_cycle = 30
 
-        self.base_log = os.getenv("LOG_FOLDER_PATH")
-        self.base_static = os.getenv('STATIC_FOLDER_PATH')
-        self.base_output = os.getenv("OUTPUT_FOLDER_PATH")
-        self.base_config = os.getenv("CONFIG_FOLDER_PATH")
-        self.base_dests = os.getenv("DESTS_FOLDER_PATH")
+        self.base_log = os.environ.get("LOG_FOLDER_PATH")
+        self.base_static = os.environ.get('STATIC_FOLDER_PATH')
+        self.base_output = os.environ.get("OUTPUT_FOLDER_PATH")
+        self.base_config = os.environ.get("CONFIG_FOLDER_PATH")
+        self.base_dests = os.environ.get("DESTS_FOLDER_PATH")
 
         self.chrome_options = webdriver.ChromeOptions()
         self.chrome_options.add_argument('--disable-gpu')
         self.chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+        self.chrome_options.add_argument('--disable-search-engine-choice-screen')
         self.chrome_options.add_argument('--incognito')
+        self.chrome_options.add_extension(f"{os.environ.get('EXTENSION_PATH')}")
         # self.chrome_options.add_argument('--headless')
 
         self.firefox_options = webdriver.FirefoxOptions()
@@ -69,7 +74,7 @@ class EdomizilScraper(object):
         default_log = {'last_dest': 0}
 
         self.logfile_path = f"{self.base_log}/edomizil/{self.week_scrap}/start/{self.filename}.json"
-        self.dest_path = f"{self.base_dests}/{self.dest_name}"
+        self.dest_path = f"{self.base_dests}/{self.dest_name}.json"
         self.output_path = f"{self.base_output}/edomizil/{self.week_scrap}/results/{self.filename}.csv"
 
         if not Path(self.output_path).exists():
@@ -124,6 +129,7 @@ class EdomizilScraper(object):
         try:
             normalized_url = self.normalize_url(url, date)
             print(f"    => {normalized_url}")
+            test_url = "https://www.e-domizil.ch/rental/942e553ea364d25fc57a7ad31ec57af8?location=5460aeabb3b30&pricetype=totalPrice&duration=7&timestamp=2024-12-16T09%3A42%3A47%2B01%3A00&id=942e553ea364d25fc57a7ad31ec57af8&searchId=5241566a773d5064&screen=search&isHotel=0&clickId=GTWXND1WZTTKVDBQ&sT=dateless&prodName=JM&prodSource=Search&c=EUR&hl=fr_CH&arrival=2025-01-11"
             self.driver.get(normalized_url)
             WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//div[@data-test='rental-sidebar']")))
             waiting_count = 0
@@ -160,7 +166,14 @@ class EdomizilScraper(object):
         print('    =>  extracting data')
         info_container = self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").get_attribute('innerHTML')
         info_cleaned = self.soupify(info_container)
-        identifiant = info_cleaned.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
+        input('pause')
+        try:
+            identifiant = info_cleaned.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
+        except:
+            identifiant = info_cleaned.find('div', {'class':"c-gray-extra-dark fwb"}).text.strip()
+        # identifiant = self.driver.find_element(By.CLASS_NAME, "bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small").find_elements('span')[-1].text.strip()
+        # if identifiant == "None"
+
         typologie = info_cleaned.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
         nom = info_cleaned.find('div', {'class':"rows>m4"}).text.strip().split('personnes')[-1].replace(',', ' -')
         price = info_cleaned.find('div', {'data-test':'total-price'}).find('span', {'class':"wsnw"}).text.replace('\u202f', '').replace(' ','').replace(',', '.').strip()[:-2]

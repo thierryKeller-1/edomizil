@@ -52,6 +52,7 @@ class EdomizilInitScraper(object):
         print(' ==> creating log file')
         log = {'last_index': 0}
         self.logfile_path = f'{self.base_log}/edomizil/{self.current_date}/init/{self.filename}.json'
+        print(f'log => {self.logfile_path}')
         if not Path(self.logfile_path).exists():
             os.makedirs(os.path.dirname(self.logfile_path), exist_ok=True)
             with open(self.logfile_path, 'w+') as openfile:
@@ -59,12 +60,15 @@ class EdomizilInitScraper(object):
 
     def create_url(self) -> None:
         print('  ==> creating urls')
+        #ajouté
+        print(self.dest_ids)
         for dest_id in self.dest_ids:
             self.list_urls.append(f"https://www.e-domizil.ch/search/{dest_id['id']}?c=EUR&hl=fr_CH")
 
     def save_base_url(self) -> None:
         print('  ==> saving base_url')
         self.base_url_path = f"{self.base_static}/edomizil/{self.current_date}/init/{self.filename}.json"
+        print(self.base_url_path)
         if not Path(self.base_url_path).exists():
             os.makedirs(os.path.dirname(self.base_url_path), exist_ok=True)
             with open(self.base_url_path, 'w') as openfile:
@@ -74,6 +78,8 @@ class EdomizilInitScraper(object):
         with open(self.base_url_path, 'r') as openfile:
             self.base_urls = json.loads(openfile.read())
             print(f"{len(self.base_urls)} urls loaded")
+        #ajouté
+        print(self.base_urls)
 
     def load_history(self) -> None:
         with open(self.logfile_path, 'r') as openfile:
