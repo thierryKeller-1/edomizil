@@ -121,7 +121,7 @@ class EdomizilScraper(object):
         
         self.driver.maximize_window()
 
-    def goto_page(self, url:str, date:str) -> None:
+    def goto_page(self, url:str, date:str) -> str:
         if self.cycle_count >= self.max_cycle:
             print('   ==> max cycle reached')
             self.use_new_driver()
@@ -129,8 +129,22 @@ class EdomizilScraper(object):
         try:
             normalized_url = self.normalize_url(url, date)
             print(f"    => {normalized_url}")
-            test_url = "https://www.e-domizil.ch/rental/942e553ea364d25fc57a7ad31ec57af8?location=5460aeabb3b30&pricetype=totalPrice&duration=7&timestamp=2024-12-16T09%3A42%3A47%2B01%3A00&id=942e553ea364d25fc57a7ad31ec57af8&searchId=5241566a773d5064&screen=search&isHotel=0&clickId=GTWXND1WZTTKVDBQ&sT=dateless&prodName=JM&prodSource=Search&c=EUR&hl=fr_CH&arrival=2025-01-11"
+            test_url = "https://www.e-domizil.ch/rental/c2b595ce31e3499a1d576fdce31290ed?location=5460aeabb3b30&pricetype=totalPrice&duration=7&timestamp=2025-02-10T09%3A52%3A13%2B01%3A00&id=c2b595ce31e3499a1d576fdce31290ed&searchId=1adbef2678a920c0&screen=search&isHotel=0&clickId=VY6G7DWP4N0L7X3S&sT=dateless&prodName=JM&prodSource=Search&c=EUR&hl=fr_CH&arrival=2025-02-22"
             self.driver.get(normalized_url)
+            #check if the link is unavailable 21 02 2025
+            time.sleep(0.5)
+            try:
+                if self.driver.find_element(By.XPATH,'//*[text()="404 Seite nicht gefunden"]'):
+                    print("                     ")
+                    print("erreur 404, quit the function for the next url")
+                    print("                     ")
+                    return "next url"
+            except:
+                pass
+
+            # WebDriverWait(self.driver, 3).until(EC.element_to_be_selected((By.XPATH,'//*[@id="jager-app"]/div/div[5]/div/div[2]/div[2]/button[2]/span/span/span')))
+            # self.driver.find_element(By.XPATH,'//*[@id="jager-app"]/div/div[5]/div/div[2]/div[2]/button[2]/span/span/span').click()
+
             WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//div[@data-test='rental-sidebar']")))
             waiting_count = 0
             while "disponibilité en cours de vérification" in self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").text.lower().strip():
@@ -164,7 +178,7 @@ class EdomizilScraper(object):
 
     def extract_data(self) -> None:
         print('    =>  extracting data')
-        time.sleep(2)
+        time.sleep(3)
         soupe = self.soupify(self.driver.page_source)
         info_container = soupe.find("div", {"data-test":'rental-sidebar'})
         identifiant = ""
@@ -173,18 +187,31 @@ class EdomizilScraper(object):
             identifiant = info_container.find('div', {'class':"bdtlrsm bdtrrsm bgc-gray-extra-light c-gray-dark pv4 tac text-small"}).find_all('span')[-1].text.strip()
         except:
             identifiant = soupe.find("div", "c-gray-extra-dark fwb").text.strip()
-
         try:
             typologie = info_container.find('div', {'class':"text-overflow text-small txt-strong"}).text.strip()
         except:
             typologie = soupe.find('span', {'class':"text-medium fwb db cols>m4"}).text.strip()
-
-        nom = soupe.find('article', {'class':"df db-print"}).find('h1', {'role':'button'}).text.strip().replace(',', ' -')
+        # input('pause')
+        #selecteur ancien affichage de nom:
+        try:
+            nom = soupe.find('div', {'data-test':"rental-sidebar"}).find_all('div', {'class':'text-overflow'})[1].text.strip().replace(',', ' -')
+            print("anienne affichage")
+            # input("pause")
+        except:
+            try:
+                nom = soupe.find('article', {'class':"df db-print"}).find('span', {'class':'c-gray-dark text-medium'}).text.strip().replace(',', ' -')
+                print("nouvelle afichage")
+                # nom = soupe.find('article', {'class':"df db-print"}).find('h1', {'role':'button'}).text.strip().replace(',', ' -')
+            except:
+                print("pas de bon selecteur nom")
+                input("pause")
+                # nom = soupe.find('article', {'class':"df db-print"}).find('h1', {'class':'subheading-medium mv0'}).text.strip().replace(',', ' -')
+        # input("price")
         price = info_container.find('div', {'data-test':"total-price"}).find('span', {'class':'wsnw'}).text.replace('\u202f', '').replace(' ', '')
         if price[0] == "€":
             price = price.replace('€', '').replace(',', '')
         else:
-            price = price.replace('.', '').replace(',', '.')
+            price = price.replace('€', '').replace('.', '').replace(',', '.')
         arrival_date = datetime.strptime(parse_qs(urlparse(self.driver.current_url).query)['arrival'][0], "%Y-%m-%d").strftime("%d/%m/%Y")
         data = {
             'date_scrap': datetime.now().strftime("%d/%m/%Y"),
@@ -228,7 +255,15 @@ class EdomizilScraper(object):
                                 ).strftime('%Y-%m-%d').to_list()
             for j in range(len(dates)):
                 print(f'    => week {j + 1} / {len(dates)} : {datetime.strptime(dates[j], "%Y-%m-%d").strftime("%d-%m-%Y")} => {(datetime.strptime(dates[j], "%Y-%m-%d") + timedelta(days=7)).strftime("%d-%m-%Y")}')
-                self.goto_page(self.destinations[k], dates[j])
+                continue_or_break = self.goto_page(self.destinations[k], dates[j])
+                #break this boucle for next_url 21 02 2025
+                if continue_or_break == "next url":
+                    # input(f"{continue_or_break}")
+                    print("         ")
+                    print("next url now")
+                    print("         ")
+                    time.sleep(2.5)
+                    break
                 if self.page_info_is_valid():
                     self.extract_data()
                     self.save_data()
