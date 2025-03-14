@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from toolkit import check_arguments, main_arguments
-from scraper import EdomizilScraper
+from G2A.old_programs.edomizil.scraper import EdomizilScraper
 from initializer import EdomizilInitScraper
 import os
 
@@ -13,13 +13,12 @@ if __name__=='__main__':
     if args.action:
         match args.action:
             case 'start':
-                miss_args = check_arguments(args, ['-n', '-d', '-b', '-e'])
+                miss_args = check_arguments(args, ['-n', '-d', '-w'])
                 if not len(miss_args):
                     e = EdomizilScraper(
                         filename=args.name,
                         dest_name=args.destination,
-                        date_start=args.start_date,
-                        date_end=args.end_date
+                        weekscrap=args.weekscrap,
                     )
                     e.start()
                 else:
