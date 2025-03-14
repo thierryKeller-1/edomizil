@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from toolkit import check_arguments, main_arguments
-from G2A.old_programs.edomizil.scraper_old import EdomizilScraper
+from G2A.old_programs.edomizil.scraper import EdomizilScraper
 from initializer import EdomizilInitScraper
 import os
 
