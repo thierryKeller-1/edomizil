@@ -7,9 +7,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 from pathlib import Path
-
-from botasaurus.browser import Driver
-
 from dotenv import load_dotenv
 import pandas as pd
 import json
@@ -117,17 +114,13 @@ class EdomizilScraper(object):
 
     def use_new_driver(self) -> None:
         try:
-            self.driver.close()
-            self.driver = Driver(
-                block_images=True,
-                arguments=['--start-maximized'])
+            self.driver.quit()
+            self.driver = webdriver.Chrome(options=self.chrome_options)
         except Exception:
-            self.driver = Driver(
-                block_images=True,
-                arguments=['--start-maximized'])
+            self.driver = webdriver.Chrome(options=self.chrome_options)
             # self.driver = webdriver.Firefox(options=self.firefox_options)
         
-        # self.driver.maximize_window()
+        self.driver.maximize_window()
 
     def goto_page(self, url:str) -> str:
         if self.cycle_count >= self.max_cycle:
@@ -142,7 +135,7 @@ class EdomizilScraper(object):
             #check if the link is unavailable 21 02 2025
             time.sleep(0.5)
             try:
-                if self.driver.select('//*[text()="404 Seite nicht gefunden"]'):
+                if self.driver.find_element(By.XPATH,'//*[text()="404 Seite nicht gefunden"]'):
                     print("                     ")
                     print("erreur 404, quit the function for the next url")
                     print("                     ")
@@ -153,10 +146,9 @@ class EdomizilScraper(object):
             # WebDriverWait(self.driver, 3).until(EC.element_to_be_selected((By.XPATH,'//*[@id="jager-app"]/div/div[5]/div/div[2]/div[2]/button[2]/span/span/span')))
             # self.driver.find_element(By.XPATH,'//*[@id="jager-app"]/div/div[5]/div/div[2]/div[2]/button[2]/span/span/span').click()
 
-            # WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//div[@data-test='rental-sidebar']")))
-            self.driver.wait_for_element("div[data-test='rental-sidebar']", wait=30)
+            WebDriverWait(self.driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//div[@data-test='rental-sidebar']")))
             waiting_count = 0
-            while "disponibilité en cours de vérification" in self.driver.select("div[data-test='rental-sidebar']").text.lower().strip():
+            while "disponibilité en cours de vérification" in self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").text.lower().strip():
                 print("    =>  waiting for data to be loaded")
                 if waiting_count >= 5:
                     waiting_count = 0
@@ -166,7 +158,6 @@ class EdomizilScraper(object):
                 waiting_count += 1
         except Exception as e:
             print(f' erreur ==> {e} ')
-            self.driver.close()
             self.use_new_driver()
             self.goto_page(url)
         self.cycle_count += 1
@@ -177,7 +168,7 @@ class EdomizilScraper(object):
 
     def page_info_is_valid(self) -> bool:
         print('    =>  verifying page')
-        info_container = self.driver.select("div[data-test='rental-sidebar']").html()
+        info_container = self.driver.find_element(By.XPATH, "//div[@data-test='rental-sidebar']").get_attribute('innerHTML')
         info_cleaned = self.soupify(info_container)
         info_displayed = info_cleaned.find('div', {'data-test':"available-badge"}) and 'bg-success-super-light' in info_cleaned.find('div', {'data-test':"available-badge"})['class']
         if info_displayed: 
